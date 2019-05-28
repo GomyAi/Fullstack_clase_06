@@ -1,0 +1,13 @@
+
+LEER numero 10
+
+
+                                               10  
+	PARA contador = 1 MIENTRAS contador <= numero  AUMENTA contador = contador + 1
+		LEER 2
+		multiplicacion = multiplicacion + 2
+	FIN-PARA
+	ESCRIBE multiplicacion
+
+
+

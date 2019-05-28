@@ -1,0 +1,17 @@
+Fui al nutriologo y me dijo que estaba gordito. Si mi peso es la variable 
+peso y tengo que llegar al peso ideal 
+¿En cuantas semanas llegaré a ese peso si bajo X kilos por semana?
+
+INICIO
+    LEER peso
+    LEER pesoIdeal
+    LEER cambio_peso
+
+    PARA contador =1 ; peso >  pesoIdeal AUMENTA contador = contador + 1
+    peso =  peso - cambio_peso
+    FIN-MIENTRAS
+    LEER kiloStotales = cambio_peso * contador
+    LEER cadaSemana = kiloStotales / contador
+    ESCRIBE('en ' + contador + ' semanas usted baja ' +  kiloStotales+ ' kilos' )  
+    ESCRIBE('Por semana usted bajara: ' +cadaSemana )
+FIN 
